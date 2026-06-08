@@ -1,19 +1,27 @@
 <!--
   GitHub Profile README
   User: tungtimo0808
-  Final theme: Pastel Ocean + Pokemon-inspired + HR-friendly AI portfolio
-  Stable version: local SVG assets, no broken dynamic repo-card images.
+  Theme: Pastel Ocean + Pokemon GIF + HR-friendly AI portfolio
+  Clean version: no giant SVG blocks, no dynamic stats cards, no broken repo-card images.
 -->
 
 <div align="center">
 
-<img src="./assets/01_header.svg" width="100%" alt="Pastel ocean AI engineer banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:E0F7FF,35:BAE6FD,70:7DD3FC,100:60A5FA&text=Timo%20da%20Poet&fontColor=075985&fontSize=58&fontAlignY=35&desc=AI%20Engineer%20%7C%20Chatbot%20Systems%20%7C%20VLM%20%7C%20OCR%20%7C%20AI%20Product%20Builder&descSize=18&descAlignY=57&animation=fadeIn" width="100%" alt="Pastel ocean banner"/>
 
 <br/>
 
-<img src="./assets/02_pokemon_team.svg" width="100%" alt="Pokemon-inspired pastel ocean companion team"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=700&color=0284C7&center=true&vCenter=true&width=900&lines=Building+AI+products+that+HR+can+understand.;Chatbot+Automation+%E2%80%A2+VLM+%E2%80%A2+OCR+%E2%80%A2+Document+AI.;Cute+Pokemon+energy%2C+serious+AI+engineering." alt="Typing animation"/>
 
-<br/>
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" width="74" alt="Squirtle"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/134.gif" width="74" alt="Vaporeon"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/131.gif" width="88" alt="Lapras"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="74" alt="Pikachu"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/151.gif" width="74" alt="Mew"/>
+
+<br/><br/>
 
 <a href="https://github.com/tungtimo0808">
   <img src="https://img.shields.io/badge/GitHub-tungtimo0808-E0F7FF?style=for-the-badge&logo=github&logoColor=075985&labelColor=BAE6FD" alt="GitHub"/>
@@ -33,29 +41,22 @@
 
 I am an **AI Engineer** focused on building practical AI products: **Chatbot Systems**, **Vision-Language Models**, **OCR / Document AI**, **Automation**, and **Applied Machine Learning**.
 
-My projects are written so that **HR can understand the product value**, while technical reviewers can still see the engineering direction: API, database, webhook, scheduler, model evaluation, deployment mindset, and clean documentation.
+My GitHub is written for two audiences:
 
 <table>
 <tr>
-<td width="33%" align="center">
+<td width="50%" align="center">
 
-### 🤖 AI Product
+### 🧑‍💼 For HR
 
-Chatbots, automation, APIs, webhook flows, customer data, admin dashboard thinking.
-
-</td>
-<td width="33%" align="center">
-
-### 👁️ Vision AI
-
-Vision-Language Models, OCR, document extraction, visual diagnosis support.
+Clear project value, real-world use cases, business impact, and readable explanations.
 
 </td>
-<td width="33%" align="center">
+<td width="50%" align="center">
 
-### 🚀 Product Builder
+### 👨‍💻 For Technical Reviewers
 
-From AI experiments to readable demos, business workflows, and deploy-ready structure.
+AI stack, backend thinking, API direction, dataset/model usage, and product structure.
 
 </td>
 </tr>
@@ -63,18 +64,50 @@ From AI experiments to readable demos, business workflows, and deploy-ready stru
 
 ---
 
-<img src="./assets/04_divider.svg" width="100%" alt="Pastel ocean divider"/>
-
-# ⭐ Featured Projects
-
 <div align="center">
 
-<img src="./assets/03_featured_cards.svg" width="100%" alt="Balanced featured AI project cards"/>
+## 🌊 Main AI Direction
 
 </div>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif" width="82" alt="Porygon"/>
+
+### 🤖 Chatbot Systems
+
+Customer messaging, product knowledge, webhooks, follow-up automation, and AI business workflow.
+
+</td>
+<td width="33%" align="center">
+
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/144.gif" width="82" alt="Articuno"/>
+
+### 👁️ Vision-Language Model
+
+Image understanding, natural-language explanation, agriculture AI, and domain-specific visual support.
+
+</td>
+<td width="33%" align="center">
+
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/233.gif" width="82" alt="Porygon2"/>
+
+### 📄 OCR / Document AI
+
+Receipt extraction, structured fields, document automation, and business data conversion.
+
+</td>
+</tr>
+</table>
+
+---
+
+# ⭐ Featured Projects
+
 The top projects are ordered intentionally: **Chatbot → VLM → OCR**.  
-These represent my strongest AI product direction and are the easiest for HR to understand.
+These best represent my current AI product direction.
 
 ---
 
@@ -82,28 +115,37 @@ These represent my strongest AI product direction and are the easiest for HR to 
 
 > **Main AI product direction:** customer support, business messaging, product knowledge, and follow-up automation.
 
-| Category | Details |
-|---|---|
-| **Project type** | AI chatbot backend / business automation system |
-| **Main value** | Turns AI chat into a real business workflow, not just a simple chat demo |
-| **Best for** | Customer support, social commerce, sales operations, product FAQ automation |
-| **Business impact** | Faster replies, more consistent answers, automated follow-up, better customer data usage |
+<table>
+<tr>
+<td width="72%">
 
 ### HR-friendly explanation
 
-This project shows that I can build **AI product infrastructure** around real customer conversations.  
+This project shows that I can build **AI product infrastructure** around real customer conversations.
+
 It combines chatbot logic, API design, database storage, webhook handling, page/product configuration, scheduled follow-ups, and integration with business messaging platforms.
 
+### Business value
+
+- Faster customer replies
+- More consistent answers from product knowledge
+- Follow-up automation instead of one-time chat
+- Better customer data usage
+- Useful for social commerce, sales, and customer support
+
+</td>
+<td width="28%" align="center">
+
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/474.gif" width="100" alt="Porygon-Z"/>
+
+**Type:** AI Product  
+**Focus:** Chatbot Automation
+
+</td>
+</tr>
+</table>
+
 ### What this demonstrates
-
-- Building chatbot systems around real business workflows
-- Connecting AI replies with product knowledge and page-specific prompts
-- Designing backend APIs for admin control and automation
-- Handling webhook-based integrations
-- Using scheduled jobs for follow-up workflows
-- Thinking about deployment, logging, maintainability, and scale
-
-### Stack / skills
 
 `Python` • `FastAPI` • `PostgreSQL` • `Gemini API` • `Webhooks` • `Schedulers` • `Cloudflare R2` • `Business Automation` • `API Design`
 
@@ -113,27 +155,37 @@ It combines chatbot logic, API design, database storage, webhook handling, page/
 
 **Repository:** [Vision-Language-Model](https://github.com/tungtimo0808/Vision-Language-Model)
 
-| Category | Details |
-|---|---|
-| **Project type** | Vision-Language Model / Agriculture AI |
-| **Main value** | Helps users understand poultry disease signs from chicken images |
-| **Best for** | Farmers, agriculture technology, AI-assisted visual diagnosis |
-| **Business/social impact** | Makes AI diagnosis support easier to understand for non-technical users |
+<table>
+<tr>
+<td width="72%">
 
 ### HR-friendly explanation
 
-This project applies multimodal AI to a practical agriculture problem.  
-Instead of only predicting a label, the system is designed to connect **image understanding** with **natural-language explanation**, so the output is easier for users to trust and act on.
+This project applies multimodal AI to a practical agriculture problem.
+
+Instead of only predicting a label, the system is designed to connect **image understanding** with **natural-language explanation**, so the output is easier for users to understand and trust.
+
+### Business / social value
+
+- Supports poultry farmers with visual disease analysis
+- Turns chicken images into understandable AI explanations
+- Helps non-technical users understand the model output
+- Shows applied AI beyond generic demo datasets
+
+</td>
+<td width="28%" align="center">
+
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/255.gif" width="95" alt="Torchic"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/144.gif" width="95" alt="Articuno"/>
+
+**Type:** Vision AI  
+**Focus:** VLM + Explanation
+
+</td>
+</tr>
+</table>
 
 ### What this demonstrates
-
-- Applying Vision-Language Models to real-world image understanding
-- Building AI that explains visual results in human-readable language
-- Working with domain-specific use cases, not generic demo data only
-- Understanding the value of knowledge support for safer explanations
-- Presenting AI results clearly for both technical and non-technical audiences
-
-### Stack / skills
 
 `Python` • `Vision-Language Model` • `Qwen2-VL` • `LoRA` • `RAG` • `FastAPI` • `Agriculture AI` • `Model Evaluation`
 
@@ -143,33 +195,47 @@ Instead of only predicting a label, the system is designed to connect **image un
 
 **Repository:** [OCR-using-SROIE-](https://github.com/tungtimo0808/OCR-using-SROIE-)
 
-| Category | Details |
-|---|---|
-| **Project type** | OCR / Receipt information extraction |
-| **Main value** | Converts receipt images into structured business fields |
-| **Best for** | Accounting, retail, finance, expense management, invoice automation |
-| **Business impact** | Reduces manual data entry and makes scanned documents usable by software |
+<table>
+<tr>
+<td width="72%">
 
 ### HR-friendly explanation
 
-This project shows practical OCR and information extraction ability.  
-It focuses on a business problem that is easy to understand: reading receipts and converting messy document images into clean fields such as **company**, **date**, **address**, and **total**.
+This project focuses on a business problem that is easy to understand: reading receipt images and converting them into clean fields such as **company**, **date**, **address**, and **total**.
+
+It shows practical OCR and document understanding, not only model experimentation.
+
+### Business value
+
+- Reduces manual data entry
+- Converts receipt images into structured data
+- Useful for accounting, retail, finance, and expense automation
+- Demonstrates OCR as an end-to-end product direction
+
+</td>
+<td width="28%" align="center">
+
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/479.gif" width="95" alt="Rotom"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/233.gif" width="95" alt="Porygon2"/>
+
+**Type:** Document AI  
+**Focus:** OCR Extraction
+
+</td>
+</tr>
+</table>
 
 ### What this demonstrates
-
-- OCR pipeline thinking
-- Document understanding and structured extraction
-- Practical API/web interface direction
-- Evaluation awareness through accuracy and error metrics
-- Business-oriented AI automation
-
-### Stack / skills
 
 `Python` • `OCR` • `Flask` • `TrOCR` • `LayoutLMv3` • `SROIE Dataset` • `Document AI` • `Information Extraction`
 
 ---
 
-<img src="./assets/04_divider.svg" width="100%" alt="Pastel ocean divider"/>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:E0F7FF,50:38BDF8,100:E0F7FF" width="100%" alt="divider"/>
+
+</div>
 
 # 🧭 More Projects
 
@@ -250,8 +316,6 @@ An AI safety project focused on detecting manipulated or deepfake media.
 
 ---
 
-<img src="./assets/04_divider.svg" width="100%" alt="Pastel ocean divider"/>
-
 # 🐚 Project Pokédex
 
 | Dex | Project | Type | HR-friendly value |
@@ -313,23 +377,36 @@ An AI safety project focused on detecting manipulated or deepfake media.
 </tr>
 </table>
 
-<div align="center">
-
-<img src="./assets/05_workflow.svg" width="100%" alt="AI project workflow animation"/>
-
-</div>
-
 ---
 
 # 🎮 Current Quest Board
 
-| Main quests | Side quests |
-|---|---|
-| Build stronger AI chatbot automation systems | Improve README storytelling |
-| Improve VLM projects into clear product demos | Make demos cleaner for HR |
-| Make OCR/document AI more production-friendly | Improve API documentation |
-| Turn AI experiments into deployable tools | Polish UI and deployment structure |
-| Keep GitHub readable and professional | Add more real project screenshots |
+<table>
+<tr>
+<td width="50%">
+
+### Main quests
+
+- Build stronger AI chatbot automation systems
+- Improve VLM projects into clear product demos
+- Make OCR/document AI more production-friendly
+- Turn AI experiments into deployable tools
+- Keep GitHub readable and professional
+
+</td>
+<td width="50%">
+
+### Side quests
+
+- Better README storytelling
+- Cleaner demos for HR
+- Better API documentation
+- More polished UI
+- More deployment-ready structure
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -341,17 +418,17 @@ An AI safety project focused on detecting manipulated or deepfake media.
 ```txt
 tungtimo0808/
 ├── 01_AI_Product
-│   ├── AI Chatbot & Automation System     # private / production-style
-│   └── aiecos-social-crm                  # social CRM + MCP + Supabase
+│   ├── AI Chatbot & Automation System
+│   └── aiecos-social-crm
 │
 ├── 02_Vision_AI
-│   ├── Vision-Language-Model              # GalLens poultry disease support
-│   ├── OCR-using-SROIE-                   # receipt extraction API
-│   └── Deepfake-Detector                  # AI safety direction
+│   ├── Vision-Language-Model
+│   ├── OCR-using-SROIE-
+│   └── Deepfake-Detector
 │
 ├── 03_Creative_AI
-│   ├── Generate_Video-                    # focused video extraction
-│   └── generate-video-                    # video generation workflow
+│   ├── Generate_Video-
+│   └── generate-video-
 │
 └── 04_Machine_Learning
     ├── Heart-Failure-Prediction
@@ -367,10 +444,14 @@ tungtimo0808/
 
 <div align="center">
 
-<img src="./assets/02_pokemon_team.svg" width="100%" alt="Pokemon-inspired pastel ocean companion team"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/245.gif" width="86" alt="Suicune"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/249.gif" width="86" alt="Lugia"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/350.gif" width="86" alt="Milotic"/>
 
 ### Thanks for visiting my Pastel Ocean AI Lab 🌊
 
 **Cute outside. Serious AI engineering inside.**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:60A5FA,40:7DD3FC,75:BAE6FD,100:E0F7FF" width="100%" alt="footer"/>
 
 </div>
