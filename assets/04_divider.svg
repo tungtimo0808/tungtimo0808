@@ -1,0 +1,14 @@
+<svg width="1200" height="76" viewBox="0 0 1200 76" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pastel ocean animated divider">
+  <defs>
+    <linearGradient id="w" x1="0" x2="1"><stop offset="0%" stop-color="#E0F7FF"/><stop offset="50%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#E0F7FF"/></linearGradient>
+    <style>
+      .a{animation:a 4.2s ease-in-out infinite alternate}
+      .b{animation:b 5.3s ease-in-out infinite alternate}
+      @keyframes a{from{transform:translateX(-26px)}to{transform:translateX(26px)}}
+      @keyframes b{from{transform:translateX(28px)}to{transform:translateX(-28px)}}
+    </style>
+  </defs>
+  <rect width="1200" height="76" rx="22" fill="#F0FCFF"/>
+  <path class="a" d="M-60 34 C80 12 170 58 310 34 S550 12 700 34 S960 58 1120 34 S1340 12 1440 34" fill="none" stroke="url(#w)" stroke-width="9" stroke-linecap="round"/>
+  <path class="b" d="M-60 50 C90 28 180 66 330 50 S570 28 720 50 S970 66 1140 50 S1350 28 1440 50" fill="none" stroke="#BAE6FD" stroke-width="6" stroke-linecap="round"/>
+</svg>

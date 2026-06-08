@@ -1,0 +1,88 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timo da Poet pastel ocean AI engineer banner">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#F0FCFF"/>
+      <stop offset="38%" stop-color="#CFF5FF"/>
+      <stop offset="72%" stop-color="#A7E9FF"/>
+      <stop offset="100%" stop-color="#BFD7FF"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0284C7" flood-opacity=".20"/>
+    </filter>
+    <style>
+      .title{font:900 70px 'Segoe UI',Arial,sans-serif;fill:#075985;letter-spacing:.5px}
+      .sub{font:800 24px 'Segoe UI',Arial,sans-serif;fill:#0369A1}
+      .chipText{font:800 16px 'Segoe UI',Arial,sans-serif;fill:#075985}
+      .chip{fill:rgba(255,255,255,.72);stroke:#7DD3FC;stroke-width:2}
+      .wave1{animation:wave1 4.8s ease-in-out infinite alternate}
+      .wave2{animation:wave2 6s ease-in-out infinite alternate}
+      .floatA{animation:floatA 3s ease-in-out infinite}
+      .floatB{animation:floatB 4s ease-in-out infinite}
+      .spark{animation:spark 1.4s ease-in-out infinite alternate;transform-origin:center}
+      @keyframes wave1{from{transform:translateX(-34px)}to{transform:translateX(34px)}}
+      @keyframes wave2{from{transform:translateX(42px)}to{transform:translateX(-42px)}}
+      @keyframes floatA{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+      @keyframes floatB{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
+      @keyframes spark{from{opacity:.35;transform:scale(.88)}to{opacity:1;transform:scale(1.14)}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="38" fill="url(#bg)"/>
+
+  <g opacity=".72">
+    <circle class="floatA" cx="86" cy="74" r="16" fill="#FFFFFF" stroke="#7DD3FC" stroke-width="3"/>
+    <circle class="floatB" cx="160" cy="132" r="9" fill="#FFFFFF" stroke="#7DD3FC" stroke-width="2"/>
+    <circle class="floatA" cx="1038" cy="82" r="13" fill="#FFFFFF" stroke="#7DD3FC" stroke-width="2"/>
+    <circle class="floatB" cx="1114" cy="142" r="21" fill="#FFFFFF" stroke="#7DD3FC" stroke-width="3"/>
+    <circle class="floatA" cx="1010" cy="250" r="10" fill="#FFFFFF" stroke="#7DD3FC" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="74" y="58" width="1052" height="224" rx="34" fill="rgba(255,255,255,.58)" stroke="rgba(255,255,255,.88)" stroke-width="2"/>
+  </g>
+
+  <g class="floatA">
+    <circle cx="142" cy="124" r="45" fill="#BAE6FD" stroke="#0284C7" stroke-width="4"/>
+    <circle cx="126" cy="116" r="7" fill="#075985"/>
+    <circle cx="158" cy="116" r="7" fill="#075985"/>
+    <path d="M130 139 Q142 150 154 139" fill="none" stroke="#075985" stroke-width="4" stroke-linecap="round"/>
+    <path d="M104 91 C74 76 68 117 99 121" fill="#BAE6FD" stroke="#0284C7" stroke-width="4"/>
+    <path d="M180 91 C210 76 216 117 185 121" fill="#BAE6FD" stroke="#0284C7" stroke-width="4"/>
+  </g>
+
+  <g class="floatB">
+    <circle cx="1058" cy="128" r="42" fill="#A7F3D0" stroke="#0891B2" stroke-width="4"/>
+    <path d="M1034 92 L1058 55 L1082 92" fill="#A7F3D0" stroke="#0891B2" stroke-width="4"/>
+    <circle cx="1043" cy="121" r="7" fill="#075985"/>
+    <circle cx="1073" cy="121" r="7" fill="#075985"/>
+    <path d="M1046 143 Q1058 153 1070 143" fill="none" stroke="#075985" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="600" y="137" text-anchor="middle" class="title">Timo da Poet</text>
+  <text x="600" y="181" text-anchor="middle" class="sub">AI Engineer • Chatbot Systems • VLM • OCR • AI Product Builder</text>
+
+  <g transform="translate(255 216)">
+    <rect class="chip" x="0" y="0" width="140" height="42" rx="21"/><text class="chipText" x="70" y="27" text-anchor="middle">Chatbot</text>
+    <rect class="chip" x="158" y="0" width="112" height="42" rx="21"/><text class="chipText" x="214" y="27" text-anchor="middle">VLM</text>
+    <rect class="chip" x="288" y="0" width="112" height="42" rx="21"/><text class="chipText" x="344" y="27" text-anchor="middle">OCR</text>
+    <rect class="chip" x="418" y="0" width="154" height="42" rx="21"/><text class="chipText" x="495" y="27" text-anchor="middle">FastAPI</text>
+    <rect class="chip" x="590" y="0" width="162" height="42" rx="21"/><text class="chipText" x="671" y="27" text-anchor="middle">AI Product</text>
+  </g>
+
+  <g class="spark">
+    <path d="M910 104 l8 18 18 8 -18 8 -8 18 -8-18 -18-8 18-8z" fill="#FFFFFF"/>
+    <path d="M290 104 l6 14 14 6 -14 6 -6 14 -6-14 -14-6 14-6z" fill="#FFFFFF"/>
+  </g>
+
+  <g class="wave1" opacity=".86">
+    <path d="M-80 318 C65 280, 165 360, 318 318 S560 280, 712 318 S960 360, 1125 318 S1360 280, 1440 318 L1440 420 L-80 420 Z" fill="url(#blue)"/>
+  </g>
+  <g class="wave2" opacity=".48">
+    <path d="M-80 300 C70 270, 160 345, 310 304 S555 270, 700 304 S955 345, 1120 304 S1350 270, 1440 304 L1440 420 L-80 420 Z" fill="#E0F7FF"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI project workflow animation">
+  <defs>
+    <style>
+      .bg{fill:#F0FCFF;stroke:#7DD3FC;stroke-width:3}
+      .node{fill:#FFFFFF;stroke:#38BDF8;stroke-width:3}
+      .txt{font:800 18px 'Segoe UI',Arial,sans-serif;fill:#075985}
+      .arr{stroke:#0284C7;stroke-width:5;stroke-linecap:round;stroke-dasharray:14 12;animation:dash 1.1s linear infinite}
+      .float{animation:float 2.8s ease-in-out infinite}
+      @keyframes dash{to{stroke-dashoffset:-26}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    </style>
+  </defs>
+  <rect class="bg" x="10" y="10" width="1180" height="240" rx="32"/>
+  <g transform="translate(82 98)">
+    <line class="arr" x1="130" y1="40" x2="258" y2="40"/>
+    <line class="arr" x1="410" y1="40" x2="538" y2="40"/>
+    <line class="arr" x1="690" y1="40" x2="818" y2="40"/>
+    <line class="arr" x1="970" y1="40" x2="1040" y2="40"/>
+    <g class="float"><rect class="node" x="0" y="0" width="130" height="80" rx="22"/><text class="txt" x="65" y="47" text-anchor="middle">Idea</text></g>
+    <g class="float" style="animation-delay:.2s"><rect class="node" x="280" y="0" width="130" height="80" rx="22"/><text class="txt" x="345" y="47" text-anchor="middle">AI Model</text></g>
+    <g class="float" style="animation-delay:.4s"><rect class="node" x="560" y="0" width="130" height="80" rx="22"/><text class="txt" x="625" y="47" text-anchor="middle">API</text></g>
+    <g class="float" style="animation-delay:.6s"><rect class="node" x="840" y="0" width="130" height="80" rx="22"/><text class="txt" x="905" y="47" text-anchor="middle">Demo</text></g>
+    <g class="float" style="animation-delay:.8s"><rect class="node" x="1040" y="0" width="130" height="80" rx="22"/><text class="txt" x="1105" y="47" text-anchor="middle">Ship</text></g>
+  </g>
+  <text x="600" y="57" text-anchor="middle" class="txt" style="font-size:24px">How I turn AI experiments into readable product demos</text>
+</svg>

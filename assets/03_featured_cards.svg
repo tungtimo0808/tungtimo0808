@@ -1,0 +1,69 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Balanced featured AI project cards">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#F0FCFF"/>
+      <stop offset="100%" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <style>
+      .card{fill:#FFFFFF;stroke:#7DD3FC;stroke-width:3}
+      .head{font:900 28px 'Segoe UI',Arial,sans-serif;fill:#075985}
+      .tag{font:800 15px 'Segoe UI',Arial,sans-serif;fill:#0369A1}
+      .body{font:700 18px 'Segoe UI',Arial,sans-serif;fill:#075985}
+      .small{font:700 15px 'Segoe UI',Arial,sans-serif;fill:#0369A1}
+      .pill{fill:#E0F7FF;stroke:#7DD3FC;stroke-width:2}
+      .icon{font:900 46px 'Segoe UI Emoji','Apple Color Emoji',sans-serif}
+      .float{animation:float 3s ease-in-out infinite}
+      .float2{animation:float2 3.4s ease-in-out infinite}
+      .float3{animation:float3 2.8s ease-in-out infinite}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      @keyframes float2{0%,100%{transform:translateY(0)}50%{transform:translateY(9px)}}
+      @keyframes float3{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+    </style>
+  </defs>
+  <rect width="1200" height="520" rx="34" fill="url(#bg)" stroke="#BAE6FD" stroke-width="3"/>
+
+  <text x="600" y="56" text-anchor="middle" class="head">Top 3 AI Projects</text>
+  <text x="600" y="86" text-anchor="middle" class="tag">Chatbot • Vision-Language Model • OCR — written for HR and technical reviewers</text>
+
+  <g class="float" transform="translate(55 125)">
+    <rect class="card" width="340" height="330" rx="28"/>
+    <text class="icon" x="32" y="66">🤖</text>
+    <text class="head" x="94" y="55">Chatbot</text>
+    <text class="tag" x="94" y="80">AI Product / Automation</text>
+    <text class="body" x="32" y="126">Business messaging system</text>
+    <text class="body" x="32" y="154">for customer support,</text>
+    <text class="body" x="32" y="182">product knowledge,</text>
+    <text class="body" x="32" y="210">webhooks and follow-ups.</text>
+    <rect class="pill" x="32" y="242" width="90" height="34" rx="17"/><text class="small" x="77" y="264" text-anchor="middle">FastAPI</text>
+    <rect class="pill" x="132" y="242" width="92" height="34" rx="17"/><text class="small" x="178" y="264" text-anchor="middle">Postgres</text>
+    <rect class="pill" x="234" y="242" width="70" height="34" rx="17"/><text class="small" x="269" y="264" text-anchor="middle">LLM</text>
+  </g>
+
+  <g class="float2" transform="translate(430 125)">
+    <rect class="card" width="340" height="330" rx="28"/>
+    <text class="icon" x="32" y="66">👁️</text>
+    <text class="head" x="94" y="55">GalLens VLM</text>
+    <text class="tag" x="94" y="80">Agriculture AI</text>
+    <text class="body" x="32" y="126">Poultry disease support</text>
+    <text class="body" x="32" y="154">from chicken images,</text>
+    <text class="body" x="32" y="182">with natural-language</text>
+    <text class="body" x="32" y="210">AI explanations.</text>
+    <rect class="pill" x="32" y="242" width="70" height="34" rx="17"/><text class="small" x="67" y="264" text-anchor="middle">VLM</text>
+    <rect class="pill" x="112" y="242" width="92" height="34" rx="17"/><text class="small" x="158" y="264" text-anchor="middle">Qwen2</text>
+    <rect class="pill" x="214" y="242" width="74" height="34" rx="17"/><text class="small" x="251" y="264" text-anchor="middle">RAG</text>
+  </g>
+
+  <g class="float3" transform="translate(805 125)">
+    <rect class="card" width="340" height="330" rx="28"/>
+    <text class="icon" x="32" y="66">📄</text>
+    <text class="head" x="94" y="55">OCR API</text>
+    <text class="tag" x="94" y="80">Document AI</text>
+    <text class="body" x="32" y="126">Receipt image to clean</text>
+    <text class="body" x="32" y="154">structured fields like</text>
+    <text class="body" x="32" y="182">company, date, address</text>
+    <text class="body" x="32" y="210">and total amount.</text>
+    <rect class="pill" x="32" y="242" width="70" height="34" rx="17"/><text class="small" x="67" y="264" text-anchor="middle">OCR</text>
+    <rect class="pill" x="112" y="242" width="82" height="34" rx="17"/><text class="small" x="153" y="264" text-anchor="middle">Flask</text>
+    <rect class="pill" x="204" y="242" width="94" height="34" rx="17"/><text class="small" x="251" y="264" text-anchor="middle">LayoutLM</text>
+  </g>
+</svg>

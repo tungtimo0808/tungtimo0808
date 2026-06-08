@@ -1,0 +1,94 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pokemon-inspired pastel ocean companions animation">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#F0FCFF"/>
+      <stop offset="50%" stop-color="#E0F7FF"/>
+      <stop offset="100%" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <style>
+      .box{fill:url(#bg);stroke:#7DD3FC;stroke-width:3}
+      .shadow{fill:#0284C7;opacity:.12}
+      .eye{fill:#075985}
+      .shine{fill:#fff}
+      .txt{font:900 24px 'Segoe UI',Arial,sans-serif;fill:#075985}
+      .sub{font:800 17px 'Segoe UI',Arial,sans-serif;fill:#0369A1}
+      .b1{fill:#93C5FD;stroke:#2563EB;stroke-width:4}
+      .b2{fill:#BAE6FD;stroke:#0284C7;stroke-width:4}
+      .b3{fill:#A7F3D0;stroke:#0891B2;stroke-width:4}
+      .b4{fill:#FDE68A;stroke:#F59E0B;stroke-width:4}
+      .b5{fill:#FBCFE8;stroke:#DB2777;stroke-width:4}
+      .float1{animation:float1 2.4s ease-in-out infinite}
+      .float2{animation:float2 2.9s ease-in-out infinite}
+      .float3{animation:float3 2.2s ease-in-out infinite}
+      .float4{animation:float4 3.1s ease-in-out infinite}
+      .float5{animation:float5 2.6s ease-in-out infinite}
+      .tail{animation:tail .75s ease-in-out infinite alternate;transform-origin:center}
+      .ear{animation:ear 1s ease-in-out infinite alternate;transform-origin:center}
+      .blink{animation:blink 3.2s step-end infinite;transform-origin:center}
+      @keyframes float1{0%,100%{transform:translateY(0)}50%{transform:translateY(-13px)}}
+      @keyframes float2{0%,100%{transform:translateY(-4px)}50%{transform:translateY(10px)}}
+      @keyframes float3{0%,100%{transform:translateY(3px)}50%{transform:translateY(-9px)}}
+      @keyframes float4{0%,100%{transform:translateY(-2px)}50%{transform:translateY(12px)}}
+      @keyframes float5{0%,100%{transform:translateY(2px)}50%{transform:translateY(-12px)}}
+      @keyframes tail{from{transform:rotate(-7deg)}to{transform:rotate(8deg)}}
+      @keyframes ear{from{transform:rotate(-4deg)}to{transform:rotate(5deg)}}
+      @keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.12)}}
+    </style>
+  </defs>
+
+  <rect class="box" x="10" y="10" width="1180" height="280" rx="36"/>
+  <text x="600" y="55" text-anchor="middle" class="txt">Pastel Pokémon-style AI Companion Team</text>
+  <text x="600" y="84" text-anchor="middle" class="sub">local SVG animation — cute, stable, no broken external sprite links</text>
+
+  <g class="float1" transform="translate(150 185)">
+    <ellipse class="shadow" cx="0" cy="56" rx="62" ry="11"/>
+    <path class="b2 tail" d="M-58 -5 L-98 -32 L-82 16 Z"/>
+    <path class="b2 tail" d="M58 -5 L98 -32 L82 16 Z"/>
+    <ellipse class="b2" cx="0" cy="0" rx="58" ry="48"/>
+    <ellipse cx="0" cy="18" rx="30" ry="19" fill="#F0FCFF"/>
+    <circle class="eye blink" cx="-18" cy="-9" r="6"/><circle class="eye blink" cx="18" cy="-9" r="6"/>
+    <circle cx="-30" cy="7" r="8" fill="#FDA4AF" opacity=".65"/><circle cx="30" cy="7" r="8" fill="#FDA4AF" opacity=".65"/>
+    <path d="M-11 11 Q0 21 11 11" fill="none" stroke="#075985" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g class="float2" transform="translate(375 185)">
+    <ellipse class="shadow" cx="0" cy="56" rx="62" ry="11"/>
+    <path class="b4 ear" d="M-34 -36 L-58 -86 L-15 -52 Z"/>
+    <path class="b4 ear" d="M34 -36 L58 -86 L15 -52 Z"/>
+    <ellipse class="b4" cx="0" cy="0" rx="55" ry="49"/>
+    <path class="tail" d="M58 -4 L96 -20 L76 8 L108 22 L70 28" fill="none" stroke="#F59E0B" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle class="eye blink" cx="-17" cy="-10" r="6"/><circle class="eye blink" cx="17" cy="-10" r="6"/>
+    <circle cx="-31" cy="7" r="9" fill="#FB7185" opacity=".75"/><circle cx="31" cy="7" r="9" fill="#FB7185" opacity=".75"/>
+    <path d="M-9 11 Q0 19 9 11" fill="none" stroke="#075985" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g class="float3" transform="translate(600 184)">
+    <ellipse class="shadow" cx="0" cy="57" rx="62" ry="11"/>
+    <path class="b3 ear" d="M-37 -37 L-75 -70 L-44 -25 Z"/>
+    <path class="b3 ear" d="M37 -37 L75 -70 L44 -25 Z"/>
+    <path class="b3" d="M-58 2 C-58 -39 -24 -61 14 -52 C55 -42 68 -3 48 31 C25 68 -35 61 -55 25 Z"/>
+    <ellipse cx="0" cy="19" rx="29" ry="19" fill="#F0FCFF"/>
+    <circle class="eye blink" cx="-18" cy="-9" r="6"/><circle class="eye blink" cx="18" cy="-9" r="6"/>
+    <path d="M-10 12 Q0 20 10 12" fill="none" stroke="#075985" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g class="float4" transform="translate(825 185)">
+    <ellipse class="shadow" cx="0" cy="56" rx="62" ry="11"/>
+    <path class="b1" d="M-58 2 C-42 -48 42 -48 58 2 C42 48 -42 48 -58 2 Z"/>
+    <path class="b1 tail" d="M-37 -30 L-60 -70 L-18 -46 Z"/>
+    <path class="b1 tail" d="M37 -30 L60 -70 L18 -46 Z"/>
+    <ellipse cx="0" cy="18" rx="31" ry="17" fill="#F0FCFF"/>
+    <circle class="eye blink" cx="-18" cy="-10" r="6"/><circle class="eye blink" cx="18" cy="-10" r="6"/>
+    <path d="M-11 10 Q0 19 11 10" fill="none" stroke="#075985" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g class="float5" transform="translate(1050 185)">
+    <ellipse class="shadow" cx="0" cy="56" rx="62" ry="11"/>
+    <circle class="b5" cx="0" cy="0" r="52"/>
+    <path class="b5 ear" d="M-30 -38 C-58 -72 -78 -40 -48 -18"/>
+    <path class="b5 ear" d="M30 -38 C58 -72 78 -40 48 -18"/>
+    <circle class="eye blink" cx="-18" cy="-10" r="6"/><circle class="eye blink" cx="18" cy="-10" r="6"/>
+    <circle class="shine" cx="-20" cy="-13" r="2"/><circle class="shine" cx="16" cy="-13" r="2"/>
+    <path d="M-10 12 Q0 21 10 12" fill="none" stroke="#075985" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

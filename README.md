@@ -1,31 +1,28 @@
 <!--
-  GitHub Profile README for: tungtimo0808
-  Theme: Pastel Ocean / Cute Pokemon-inspired / HR-friendly AI Engineer profile
-  This version avoids fragile dynamic repo-card images to prevent broken image icons.
+  GitHub Profile README
+  User: tungtimo0808
+  Final theme: Pastel Ocean + Pokemon-inspired + HR-friendly AI portfolio
+  Stable version: local SVG assets, no broken dynamic repo-card images.
 -->
 
 <div align="center">
 
-<img src="./assets/ocean-header.svg" width="100%" alt="Timo da Poet pastel ocean AI profile banner"/>
+<img src="./assets/01_header.svg" width="100%" alt="Pastel ocean AI engineer banner"/>
 
 <br/>
 
-<img src="./assets/typing-loop.svg" width="92%" alt="Animated typing intro"/>
-
-<br/><br/>
-
-<img src="./assets/cute-ocean-companions.svg" width="92%" alt="Cute ocean AI companion animation"/>
+<img src="./assets/02_pokemon_team.svg" width="100%" alt="Pokemon-inspired pastel ocean companion team"/>
 
 <br/>
 
 <a href="https://github.com/tungtimo0808">
-  <img src="https://img.shields.io/badge/GitHub-tungtimo0808-E0F7FF?style=for-the-badge&logo=github&logoColor=075985&labelColor=BAE6FD" alt="GitHub badge"/>
+  <img src="https://img.shields.io/badge/GitHub-tungtimo0808-E0F7FF?style=for-the-badge&logo=github&logoColor=075985&labelColor=BAE6FD" alt="GitHub"/>
 </a>
 <a href="https://github.com/tungtimo0808?tab=repositories">
-  <img src="https://img.shields.io/badge/Projects-View%20Repositories-E0F7FF?style=for-the-badge&logo=githubactions&logoColor=0284C7&labelColor=BAE6FD" alt="Projects badge"/>
+  <img src="https://img.shields.io/badge/Projects-View%20Repositories-E0F7FF?style=for-the-badge&logo=githubactions&logoColor=0284C7&labelColor=BAE6FD" alt="Repositories"/>
 </a>
 <a href="mailto:keytwelvelab@gmail.com">
-  <img src="https://img.shields.io/badge/Email-keytwelvelab%40gmail.com-E0F7FF?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=BAE6FD" alt="Email badge"/>
+  <img src="https://img.shields.io/badge/Email-keytwelvelab%40gmail.com-E0F7FF?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=BAE6FD" alt="Email"/>
 </a>
 
 </div>
@@ -36,45 +33,75 @@
 
 I am an **AI Engineer** focused on building practical AI products: **Chatbot Systems**, **Vision-Language Models**, **OCR / Document AI**, **Automation**, and **Applied Machine Learning**.
 
-I care about projects that are easy for HR to understand, useful for real users, and clear enough for technical reviewers to inspect.  
-My goal is not only to train models, but to turn AI ideas into usable systems with APIs, data storage, dashboards, and deployment-ready structure.
+My projects are written so that **HR can understand the product value**, while technical reviewers can still see the engineering direction: API, database, webhook, scheduler, model evaluation, deployment mindset, and clean documentation.
 
-<img src="./assets/hr-value-card.svg" width="100%" alt="HR-friendly AI project value card"/>
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 🤖 AI Product
+
+Chatbots, automation, APIs, webhook flows, customer data, admin dashboard thinking.
+
+</td>
+<td width="33%" align="center">
+
+### 👁️ Vision AI
+
+Vision-Language Models, OCR, document extraction, visual diagnosis support.
+
+</td>
+<td width="33%" align="center">
+
+### 🚀 Product Builder
+
+From AI experiments to readable demos, business workflows, and deploy-ready structure.
+
+</td>
+</tr>
+</table>
 
 ---
 
-<img src="./assets/ocean-divider.svg" width="100%" alt="Ocean divider"/>
+<img src="./assets/04_divider.svg" width="100%" alt="Pastel ocean divider"/>
 
 # ⭐ Featured Projects
 
-The first three projects are placed at the top because they best represent my current AI direction: **Chatbot**, **VLM**, and **OCR**.
+<div align="center">
+
+<img src="./assets/03_featured_cards.svg" width="100%" alt="Balanced featured AI project cards"/>
+
+</div>
+
+The top projects are ordered intentionally: **Chatbot → VLM → OCR**.  
+These represent my strongest AI product direction and are the easiest for HR to understand.
 
 ---
 
 ## 🤖 01 — AI Chatbot & Automation System
 
-> **Main AI product direction — customer support, business messaging, product knowledge, and follow-up automation.**
+> **Main AI product direction:** customer support, business messaging, product knowledge, and follow-up automation.
 
 | Category | Details |
 |---|---|
 | **Project type** | AI chatbot backend / business automation system |
-| **Goal** | Help businesses manage conversations, automate customer replies, configure knowledge, and trigger follow-up workflows |
+| **Main value** | Turns AI chat into a real business workflow, not just a simple chat demo |
 | **Best for** | Customer support, social commerce, sales operations, product FAQ automation |
-| **Core value** | Turns AI chat into a real business workflow instead of a simple demo chatbot |
+| **Business impact** | Faster replies, more consistent answers, automated follow-up, better customer data usage |
 
-### HR-friendly summary
+### HR-friendly explanation
 
-This project shows my ability to build **AI product infrastructure**, not only model experiments.  
-It combines chatbot logic, API design, database storage, webhook handling, product/page configuration, scheduled follow-ups, and integration with customer conversation platforms.
+This project shows that I can build **AI product infrastructure** around real customer conversations.  
+It combines chatbot logic, API design, database storage, webhook handling, page/product configuration, scheduled follow-ups, and integration with business messaging platforms.
 
 ### What this demonstrates
 
-- Building chatbot systems around real customer conversations
-- Connecting AI replies with product knowledge and page-specific configuration
+- Building chatbot systems around real business workflows
+- Connecting AI replies with product knowledge and page-specific prompts
 - Designing backend APIs for admin control and automation
-- Using scheduler jobs for follow-up workflows
-- Thinking about deployment, logging, and maintainability
-- Turning LLM capability into practical business software
+- Handling webhook-based integrations
+- Using scheduled jobs for follow-up workflows
+- Thinking about deployment, logging, maintainability, and scale
 
 ### Stack / skills
 
@@ -84,29 +111,27 @@ It combines chatbot logic, API design, database storage, webhook handling, produ
 
 ## 👁️ 02 — GalLens: Vision-Language System for Poultry Disease Diagnosis
 
-> **Vision-Language AI project that helps identify poultry diseases from chicken images and explain the result in natural language.**
-
 **Repository:** [Vision-Language-Model](https://github.com/tungtimo0808/Vision-Language-Model)
 
 | Category | Details |
 |---|---|
 | **Project type** | Vision-Language Model / Agriculture AI |
-| **Goal** | Support poultry disease diagnosis from images |
+| **Main value** | Helps users understand poultry disease signs from chicken images |
 | **Best for** | Farmers, agriculture technology, AI-assisted visual diagnosis |
-| **Core value** | Converts visual symptoms into understandable AI explanations |
+| **Business/social impact** | Makes AI diagnosis support easier to understand for non-technical users |
 
-### HR-friendly summary
+### HR-friendly explanation
 
 This project applies multimodal AI to a practical agriculture problem.  
-Instead of only predicting a label from an image, the system is designed to help users understand the diagnosis through natural-language explanation.
+Instead of only predicting a label, the system is designed to connect **image understanding** with **natural-language explanation**, so the output is easier for users to trust and act on.
 
 ### What this demonstrates
 
 - Applying Vision-Language Models to real-world image understanding
-- Building AI that explains results in human-readable language
+- Building AI that explains visual results in human-readable language
 - Working with domain-specific use cases, not generic demo data only
-- Understanding the value of RAG / knowledge support for safer explanation
-- Creating a project that can be presented to both technical and non-technical audiences
+- Understanding the value of knowledge support for safer explanations
+- Presenting AI results clearly for both technical and non-technical audiences
 
 ### Stack / skills
 
@@ -116,21 +141,19 @@ Instead of only predicting a label from an image, the system is designed to help
 
 ## 📄 03 — Receipt Information Extraction API
 
-> **Document AI project that turns receipt images into structured business data.**
-
 **Repository:** [OCR-using-SROIE-](https://github.com/tungtimo0808/OCR-using-SROIE-)
 
 | Category | Details |
 |---|---|
 | **Project type** | OCR / Receipt information extraction |
-| **Goal** | Extract fields such as company, date, address, and total from receipt images |
+| **Main value** | Converts receipt images into structured business fields |
 | **Best for** | Accounting, retail, finance, expense management, invoice automation |
-| **Core value** | Reduces manual data entry by converting images into structured data |
+| **Business impact** | Reduces manual data entry and makes scanned documents usable by software |
 
-### HR-friendly summary
+### HR-friendly explanation
 
 This project shows practical OCR and information extraction ability.  
-It focuses on a business problem that is easy to understand: reading receipts and converting messy document images into clean fields that software can use.
+It focuses on a business problem that is easy to understand: reading receipts and converting messy document images into clean fields such as **company**, **date**, **address**, and **total**.
 
 ### What this demonstrates
 
@@ -146,95 +169,88 @@ It focuses on a business problem that is easy to understand: reading receipts an
 
 ---
 
-<img src="./assets/ocean-divider.svg" width="100%" alt="Ocean divider"/>
+<img src="./assets/04_divider.svg" width="100%" alt="Pastel ocean divider"/>
 
-# 🧭 More Project Cards
+# 🧭 More Projects
+
+<table>
+<tr>
+<td width="50%">
 
 ## 🧩 AIECOS Social CRM
 
 **Repository:** [aiecos-social-crm](https://github.com/tungtimo0808/aiecos-social-crm)
 
-| Category | Details |
-|---|---|
-| **Project type** | Social CRM / AI agent-ready customer system |
-| **Goal** | Sync conversations from social channels into a structured customer database |
-| **Best for** | Sales teams, social commerce, customer care, AI agent workflows |
-| **Core value** | Makes customer data easier to manage, search, and use with AI agents |
+A social CRM template that syncs conversations from social channels into a structured customer database, provides an admin UI, and exposes customer data to AI agents.
 
 **Shows:** product thinking, CRM automation, Supabase/Postgres, admin dashboard, MCP, multi-channel data sync.
 
----
+</td>
+<td width="50%">
 
 ## 🎬 Video AI / Focused Video Extraction
 
 **Repository:** [Generate_Video-](https://github.com/tungtimo0808/Generate_Video-)
 
-| Category | Details |
-|---|---|
-| **Project type** | Creative AI / video processing |
-| **Goal** | Generate or extract a new focused video around one person and one product |
-| **Best for** | Short-form content, product clips, automation tools |
-| **Core value** | Turns raw video into more focused content for presentation or marketing |
+A creative AI/video processing project focused on extracting or generating a new video around one person and one product.
 
 **Shows:** video AI direction, creative automation, product demo thinking.
 
----
+</td>
+</tr>
+<tr>
+<td width="50%">
 
 ## 🫀 Heart Failure Prediction
 
 **Repository:** [Heart-Failure-Prediction](https://github.com/tungtimo0808/Heart-Failure-Prediction)
 
-| Category | Details |
-|---|---|
-| **Project type** | Healthcare machine learning |
-| **Goal** | Predict heart failure risk from structured medical data |
-| **Best for** | Healthcare ML practice, tabular prediction, model evaluation |
-| **Core value** | Demonstrates classic ML workflow on a medically relevant dataset |
+A healthcare machine learning project for predicting heart failure risk from structured medical data.
 
 **Shows:** data preprocessing, ML modeling, evaluation, notebook experimentation.
 
----
+</td>
+<td width="50%">
 
 ## 🏠 House Price Prediction
 
 **Repository:** [Project-House-Price-Prediction](https://github.com/tungtimo0808/Project-House-Price-Prediction)
 
-| Category | Details |
-|---|---|
-| **Project type** | Regression ML |
-| **Goal** | Predict house prices from structured features |
-| **Best for** | Practical regression practice, feature engineering, baseline modeling |
-| **Core value** | Shows understanding of classic supervised learning problems |
+A regression machine learning project for predicting house prices from structured features.
 
----
+**Shows:** feature engineering, model comparison, practical supervised learning.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
 
 ## 🍜 Food Recommendation
 
 **Repository:** [Project-Food-Recommendation](https://github.com/tungtimo0808/Project-Food-Recommendation)
 
-| Category | Details |
-|---|---|
-| **Project type** | Recommendation system |
-| **Goal** | Recommend food options based on user or item data |
-| **Best for** | Recommender-system basics, personalization, ranking logic |
-| **Core value** | Shows ability to frame user preference problems as ML/product tasks |
+A recommendation-system project for suggesting food options from user or item data.
 
----
+**Shows:** personalization, ranking logic, recommender-system basics.
+
+</td>
+<td width="50%">
 
 ## 🛡️ Deepfake Detector
 
 **Repository:** [Deepfake-Detector](https://github.com/tungtimo0808/Deepfake-Detector)
 
-| Category | Details |
-|---|---|
-| **Project type** | AI safety / media authenticity |
-| **Goal** | Detect manipulated or deepfake media |
-| **Best for** | AI safety, computer vision, trustworthy media workflows |
-| **Core value** | Shows interest in responsible AI and detection systems |
+An AI safety project focused on detecting manipulated or deepfake media.
+
+**Shows:** responsible AI direction, computer vision, media authenticity.
+
+</td>
+</tr>
+</table>
 
 ---
 
-<img src="./assets/ocean-divider.svg" width="100%" alt="Ocean divider"/>
+<img src="./assets/04_divider.svg" width="100%" alt="Pastel ocean divider"/>
 
 # 🐚 Project Pokédex
 
@@ -256,17 +272,52 @@ It focuses on a business problem that is easy to understand: reading receipts an
 
 # 🧬 Skills
 
+<table>
+<tr>
+<td width="33%" align="center">
+
 ## AI / ML
 
-`Machine Learning` • `Deep Learning` • `Computer Vision` • `Vision-Language Models` • `OCR` • `RAG` • `Model Evaluation` • `Data Preprocessing`
+`Machine Learning`  
+`Deep Learning`  
+`Computer Vision`  
+`Vision-Language Models`  
+`OCR`  
+`RAG`
 
-## Backend / Product Engineering
+</td>
+<td width="33%" align="center">
 
-`Python` • `FastAPI` • `Flask` • `PostgreSQL` • `Supabase` • `REST API` • `Webhooks` • `Schedulers` • `Git` • `Docker-ready Thinking`
+## Backend
 
-## Product Direction
+`Python`  
+`FastAPI`  
+`Flask`  
+`PostgreSQL`  
+`Supabase`  
+`REST API`
 
-`AI Chatbot` • `Customer Automation` • `Document AI` • `CRM Automation` • `Video AI` • `Admin Dashboard` • `Deployable Demo`
+</td>
+<td width="33%" align="center">
+
+## Product
+
+`AI Chatbot`  
+`Customer Automation`  
+`Document AI`  
+`CRM Automation`  
+`Video AI`  
+`Deployable Demo`
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img src="./assets/05_workflow.svg" width="100%" alt="AI project workflow animation"/>
+
+</div>
 
 ---
 
@@ -316,12 +367,10 @@ tungtimo0808/
 
 <div align="center">
 
-<img src="./assets/cute-ocean-companions.svg" width="88%" alt="Cute ocean AI companion animation"/>
+<img src="./assets/02_pokemon_team.svg" width="100%" alt="Pokemon-inspired pastel ocean companion team"/>
 
 ### Thanks for visiting my Pastel Ocean AI Lab 🌊
 
 **Cute outside. Serious AI engineering inside.**
-
-<img src="./assets/ocean-divider.svg" width="100%" alt="Ocean divider"/>
 
 </div>
