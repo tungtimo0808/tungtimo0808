@@ -1,0 +1,24 @@
+<svg width="1200" height="86" viewBox="0 0 1200 86" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated pastel ocean divider">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e0f7ff"/>
+      <stop offset="50%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#e0f7ff"/>
+    </linearGradient>
+    <style>
+      .w1{animation:m1 4s ease-in-out infinite alternate}
+      .w2{animation:m2 5s ease-in-out infinite alternate}
+      .b{fill:#fff;stroke:#7dd3fc;stroke-width:2;opacity:.72;animation:up 3s ease-in-out infinite}
+      @keyframes m1{from{transform:translateX(-24px)}to{transform:translateX(24px)}}
+      @keyframes m2{from{transform:translateX(32px)}to{transform:translateX(-32px)}}
+      @keyframes up{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    </style>
+  </defs>
+  <rect width="1200" height="86" rx="25" fill="#f0fbff"/>
+  <path class="w1" d="M-80 50 C70 20 140 78 300 50 S540 20 700 50 S950 78 1120 50 S1350 20 1450 50" fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
+  <path class="w2" d="M-80 62 C75 32 160 82 320 62 S560 32 720 62 S970 82 1140 62 S1360 32 1450 62" fill="none" stroke="#bae6fd" stroke-width="7" stroke-linecap="round"/>
+  <circle class="b" cx="132" cy="30" r="7"/>
+  <circle class="b" cx="320" cy="24" r="5"/>
+  <circle class="b" cx="884" cy="25" r="6"/>
+  <circle class="b" cx="1048" cy="34" r="8"/>
+</svg>

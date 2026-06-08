@@ -1,0 +1,25 @@
+<svg width="1100" height="80" viewBox="0 0 1100 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated AI portfolio typing text">
+  <style>
+    text { font: 800 25px 'Segoe UI', Arial, sans-serif; fill:#0284c7; }
+    .line { opacity: 0; animation: show 9s infinite; }
+    .l1 { animation-delay: 0s; }
+    .l2 { animation-delay: 3s; }
+    .l3 { animation-delay: 6s; }
+    @keyframes show {
+      0% { opacity:0; transform: translateY(10px); }
+      8% { opacity:1; transform: translateY(0); }
+      28% { opacity:1; transform: translateY(0); }
+      36% { opacity:0; transform: translateY(-10px); }
+      100% { opacity:0; transform: translateY(-10px); }
+    }
+    .cursor { animation: blink .8s step-end infinite; }
+    @keyframes blink { 50% { opacity:0; } }
+  </style>
+  <rect width="1100" height="80" rx="22" fill="#f0fbff" stroke="#bae6fd" stroke-width="3"/>
+  <g transform="translate(550 50)" text-anchor="middle">
+    <text class="line l1">Building practical AI systems that HR can understand and users can use.</text>
+    <text class="line l2">Chatbot Automation • Vision-Language Models • OCR • AI Product Engineering.</text>
+    <text class="line l3">Pastel Ocean AI Lab: cute outside, serious engineering inside.</text>
+  </g>
+  <rect class="cursor" x="1018" y="25" width="4" height="32" rx="2" fill="#0284c7"/>
+</svg>
