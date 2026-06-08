@@ -585,8 +585,8 @@ tungtimo0808/
 <a href="https://github.com/tungtimo0808?tab=repositories">
   <img src="https://img.shields.io/badge/Projects-View%20Repositories-E0F7FF?style=for-the-badge&logo=githubactions&logoColor=0284C7&labelColor=BAE6FD" alt="Repositories"/>
 </a>
-<a href="mailto:tungtimo0808@gmail.com">
-  <img src="https://img.shields.io/badge/Email-tungtimo0808%40gmail.com-E0F7FF?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=BAE6FD" alt="Email"/>
+<a href="mailto:keytwelvelab@gmail.com">
+  <img src="https://img.shields.io/badge/Email-keytwelvelab%40gmail.com-E0F7FF?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=BAE6FD" alt="Email"/>
 </a>
 
 <br/><br/>
